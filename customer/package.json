@@ -12,19 +12,29 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.19",
+    "@fortawesome/free-solid-svg-icons": "^5.9.0",
+    "@fortawesome/vue-fontawesome": "^0.1.6",
     "@nuxtjs/axios": "^5.5.4",
     "cross-env": "^5.2.0",
     "element-ui": "^2.4.11",
     "express": "^4.16.4",
     "nuxt": "^2.0.0",
-    "vue-router": "^3.0.6"
+    "nuxt-fontawesome": "^0.4.0",
+    "vue-router": "^3.0.6",
+    "vue-scrollto": "^2.15.0",
+    "vue-server-renderer": "^2.6.10",
+    "webpack": "^4.34.0"
   },
   "devDependencies": {
     "@vue/test-utils": "^1.0.0-beta.27",
     "babel-core": "7.0.0-bridge.0",
     "babel-jest": "^24.1.0",
     "jest": "^24.1.0",
+    "nodemon": "^1.18.9",
+    "vue": "^2.6.10",
     "vue-jest": "^3.0.3",
-    "nodemon": "^1.18.9"
+    "vue-loader": "^15.7.0",
+    "vue-template-compiler": "^2.6.10"
   }
 }
