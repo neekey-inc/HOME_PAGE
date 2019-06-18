@@ -4,9 +4,9 @@
     <header>
       <nav>
         <ul>
+          <li><router-link to="#home"><img src="/company-logo.png" width="150px" height="50px" class="logo"></router-link></li>
           <li class="top"><router-link to="#service" class="navigation">SERVICE</router-link></li>
           <li><router-link to="#who" class="navigation">WHO WE ARE</router-link></li>
-          <li><router-link to="#home"><img src="/logo.png" width="150px" height="100px" class="logo"></router-link></li>
           <li><router-link to="#about" class="navigation">ABOUT</router-link></li>
           <li><router-link to="#member" class="navigation">MEMBER</router-link></li>
           <li><router-link to="#contact" class="navigation">CONTACT</router-link></li>
