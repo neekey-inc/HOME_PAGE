@@ -46,6 +46,40 @@
     </div>
     <!-- ~~~~~~サービス -->
 
+    <!-- WHO WE ARE~~~~~~ -->
+    <div class="whowearebox">
+      <h3 class="whoweare">WHO WE ARE</h3>
+      <p>株式会社Neekeyは、全く新しい思想・システムのPR/広告/のIT会社です。
+        企業・自治体・個人のチャレンジを、<br>
+        事業開発からプロモーションまで全般的にサポート、成功まで導きます。<br>
+        株式会社Neekeyが従来の広告・PRの会社と異なる、三つの新しいポイント。<br>
+      </p>
+      <div class="flexbox">
+        <article class=" paragraph paragrph1">
+          <p>Neekey .Inc</p>
+          <p>CEO<br>Takaaki Takada</p>
+          <p>Address<br>Dainashiti 1302, 4-41-16 Tyuuou, Nakano-ku, 164-0011 Tokyo, Japan</p>
+          <p>Content<br>Internet media and application planning, development, management, SEO measures</p>
+          <p>Established<br>2019</p>
+        </article>
+        <article class=" paragraph paragrph2">
+          <p>株式会社ニーキー</p>
+          <p>代表者<br>高田 崇照 (たかだ たかあき)</p>
+          <p>住所<br>〒164-0011 東京都中野区中央4-41-16ダイナシティ1302</p>
+          <p>事業内容<br>インターネットメディア及びアプリケーションの企画・開発・運営、SEO対策</p>
+          <p>設立<br>2019年</p>
+        </article>
+        <article class=" paragraph paragrph3">
+          <p>株式会社ニーキー</p>
+          <p>代表者<br>高田 崇照 (たかだ たかあき)</p>
+          <p>住所<br>〒164-0011 東京都中野区中央4-41-16ダイナシティ1302</p>
+          <p>事業内容<br>インターネットメディア及びアプリケーションの企画・開発・運営、SEO対策</p>
+          <p>設立<br>2019年</p>
+        </article>
+      </div>
+    </div>
+    <!-- ~~~~~~WHO WE ARE -->
+
     <!-- アバウト~~~~~~ -->
     <div class="aboutbox">
       <h3 class="about">ABOUT</h3>

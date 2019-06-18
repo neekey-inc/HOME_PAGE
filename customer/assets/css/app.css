@@ -338,3 +338,30 @@ textarea.form-control{
 }
 
 /* ~~~~~~service */
+
+/* WHO WE ARE~~~~~ */
+
+.whowearebox{
+  width:100%;
+  background-color: #333333;
+  padding-top: 30px;
+  padding-bottom: 80px;
+}
+h3.whoweare{
+  text-align: center;
+  padding-top: 70px;
+  color: rgb(255, 255, 255);
+  font-size:60px;
+  font-weight:300;
+  margin-bottom:0;
+  font-family:FB PoynterSerif RE Regular,A1 Mincho,ヒラギノ明朝 ProN W3,HiraMinProN-W3,ＭＳ\ Ｐ明朝,serif;
+}
+.whowearebox p{
+  margin-left: 35%;
+  color: white;
+}
+.paragraph {
+  width:30%;
+}
+
+/* ~~~~~~WHO WE ARE */

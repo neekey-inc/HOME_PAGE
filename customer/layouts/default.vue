@@ -5,8 +5,8 @@
       <nav>
         <ul>
           <li><img src="/key.png" class="logo"></li>
-          <li>COMPANY</li>
           <li>SERVICE</li>
+          <li>WHO WE ARE</li>
           <li>ABOUT</li>
           <li>MEMBER</li>
           <li>CONTACT</li>
