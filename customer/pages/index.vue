@@ -2,9 +2,9 @@
   <div class="redirect"></div>
 </template>
 <script>
-  // export default {
-  //   mounted () {
-  //     this.$router.push('/home')
-  //   }
-  // }
+  export default {
+    mounted () {
+      this.$router.push('/home')
+    }
+  }
 </script>

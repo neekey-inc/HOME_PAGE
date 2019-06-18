@@ -1,22 +1,29 @@
 
 
 /* 全体~~~~~~ */
-body{
+body {
   width:100%;
-  margin: 0px;
+  margin: 0;
 }
 /* ~~~~~~全体 */
 
+/* header~~~~~~ */
+.navigation {
+  color: white;
+  text-decoration: none;
+}
+
+/* ~~~~~~header */
 
 
 /* feader~~~~~~ */
-nav{
+nav {
   width:100%;
   background-color: #333333;
   position: fixed;
   z-index: 100;
 }
-ul{
+ul {
   margin: 0px;
   height: 60px;
   text-align: center;
@@ -166,17 +173,17 @@ h4{
 .japanese {
   text-align: right;
   padding: 1%;
+  color: black;
+  width: 50%;
 }
 .contactform {
   text-align: left;
   padding-top: 60px;
   padding-left: 3%;
-}
-.japanese,
-.contactform {
   color: black;
   width: 50%;
 }
+
 h3.contact{
   text-align: right;
   padding-top: 30px;
@@ -188,7 +195,7 @@ h3.contact{
   margin-top: 0;
   font-family:FB PoynterSerif RE Regular,A1 Mincho,ヒラギノ明朝 ProN W3,HiraMinProN-W3,ＭＳ\ Ｐ明朝,serif;
 }
-#contact-form{
+/* #contact-form{
   margin-top: 20px;
 }
 #contact-form.col-sm-6.col-md-offset-1.scrollimation.fade-left.d3{
@@ -251,6 +258,19 @@ textarea.form-control{
   height:50px;
   font-size: 15px;
   border-radius: .25rem;
+} */
+
+.input-form {
+  width:50%;
+}
+input:focus {
+  outline: none;
+  box-shadow: none;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom: 3px solid #64F9C1;
+  background-color: #fff;
 }
 /* ~~~~~~contact */
 
@@ -365,3 +385,4 @@ h3.whoweare{
 }
 
 /* ~~~~~~WHO WE ARE */
+

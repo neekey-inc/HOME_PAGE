@@ -2,36 +2,21 @@ import uuid
 from django.db import models
 from django.utils import timezone
 
-# class CategoryManager(models.Manager):
-#     def get_queryset(self):
-#         return super().get_queryset().annotate(
-#             article_count=models.Count('article')
-#         ).order_by('-article_count')
-
-# class Category(models.Model):
-#     class Meta:
-#         db_table = 'category'
-
-#     name = models.CharField(max_length=40)
-#     objects = CategoryManager()
-
-#     def __str__(self):
-#         if hasattr(self, 'article_count'):
-#             return f'{self.name}({self.article_count})'
-#         else:
-#             return self.name
-
 class Contact(models.Model):
     class Meta:
         db_table = 'contact'
 
-    id = models.UUIDField(primary_key = True, default = uuid.uuid4, editable = False)
-    title = models.CharField(max_length = 30, null = False)
-    name = models.CharField(max_length = 30, null = False)
-    email = models.EmailField(null = False)
-    text = models.TextField(null = False)
-    tell = models.TextField(max_length=12,null=False)
-    # category = models.ForeignKey(Category, verbose_name='カテゴリ', on_delete=models.PROTECT,)
+    uuid = models.UUIDField(unique=True, default=uuid.uuid4, editable=False)
+    name = models.CharField(max_length = 150, null = False)
+    email = models.EmailField(null = False, unique=True)
+    phone = models.CharField(max_length=64,null=False)
+    subject = models.CharField(max_length = 300, null = False)
+    detail = models.TextField(null = False)
+    status = models.IntegerField(null = False, default=0)
+
+    deleted = models.BooleanField(default=False)
+    created_at = models.DateField(auto_now_add=True)
+    modified_at = models.DateField(auto_now=True)    # category = models.ForeignKey(Category, verbose_name='カテゴリ', on_delete=models.PROTECT,)
 
     def __str__(self):
-        return self.title
+        return self.subject

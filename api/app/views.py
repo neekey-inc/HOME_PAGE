@@ -8,4 +8,5 @@ from .models import Contact
 
 class ContactViewSet(viewsets.ModelViewSet):
     serializer_class = ContactSerializer
+    # send_notification(Contact.objects, '登録')
     queryset = Contact.objects.all()
