@@ -9,7 +9,7 @@ body {
 
 /* header~~~~~~ */
 .navigation {
-  color: black;
+  color: white;
   text-decoration: none;
 }
 
@@ -19,29 +19,29 @@ body {
 /* feader~~~~~~ */
 nav {
   width:100%;
-  background-color: white;
-  position: fixed;
+  background-color: #333333;
+  /* position: fixed; */
   z-index: 100;
-  height: 110px;
+  height: 70px;
   border-bottom: 1px solid gray;
 }
 ul {
   margin: 0px;
-  height: 60px;
-  text-align: left;
+  padding-top: 20px;
+  /* height: 40px; */
+  text-align: center;
 }
 li {
   display: inline;
-  padding: 0 60px;
-  color: white;
+  padding: 0 80px;
 }
-.logo{
-  vertical-align: -100%;
+/* .logo{
+  vertical-align: middle;
   padding-top:0.6%;
-}
-.top{
+} */
+/* .top{
   margin-left: 17%;
-}
+} */
 
 /* ~~~~~~feader */
 
@@ -70,8 +70,8 @@ address{
 h1{
   width: 100%;
   text-align: center;
-  padding: 200px 0;
-  padding-top: 260px;
+  padding: 240px 0;
+  padding-top: 280px;
   font-size: 40px;
   margin-top: 0;
 }
