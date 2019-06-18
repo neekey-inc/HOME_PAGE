@@ -3,8 +3,8 @@
     <!-- ヘッダー~~~~~~ -->
     <header>
       <nav>
+        <div><router-link to="#home"><img src="/logo.png" width="240px" height="160px" class="logo"></router-link></div>
         <ul>
-          <li><router-link to="#home"><img src="/key.png" class="logo"></router-link></li>
           <li><router-link to="#service" class="navigation">SERVICE</router-link></li>
           <li><router-link to="#who" class="navigation">WHO WE ARE</router-link></li>
           <li><router-link to="#about" class="navigation">ABOUT</router-link></li>

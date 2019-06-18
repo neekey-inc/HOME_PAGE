@@ -238,7 +238,8 @@
         let url = 'home/'
         self.loading = true
         self.$axios[method](url, post_data).then(response => {
-          self.$message('お問い合わせ内容の送信が完了しました')
+          self.$message('お問い合わせ内容の送信が完了しました。担当者からのメールをお待ち下さい。')
+          this.form = ''
           self.loading = false
         }).catch(error => {
           if (error.response) {
