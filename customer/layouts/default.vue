@@ -4,12 +4,12 @@
     <header>
       <nav>
         <ul>
-          <li><img src="/key.png" class="logo"></li>
-          <li>SERVICE</li>
-          <li>WHO WE ARE</li>
-          <li>ABOUT</li>
-          <li>MEMBER</li>
-          <li>CONTACT</li>
+          <li><router-link to="#home"><img src="/key.png" class="logo"></router-link></li>
+          <li><router-link to="#service" class="navigation">SERVICE</router-link></li>
+          <li><router-link to="#who" class="navigation">WHO WE ARE</router-link></li>
+          <li><router-link to="#about" class="navigation">ABOUT</router-link></li>
+          <li><router-link to="#member" class="navigation">MEMBER</router-link></li>
+          <li><router-link to="#contact" class="navigation">CONTACT</router-link></li>
         </ul>
       </nav>
     </header>
@@ -30,3 +30,4 @@
     <!-- ~~~~~~フッター -->
   </div>
 </template>
+
