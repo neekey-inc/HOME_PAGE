@@ -49,32 +49,38 @@
     <!-- WHO WE ARE~~~~~~ -->
     <div class="whowearebox">
       <h3 class="whoweare">WHO WE ARE</h3>
-      <p>株式会社Neekeyは、全く新しい思想・システムのPR/広告/のIT会社です。
-        企業・自治体・個人のチャレンジを、<br>
-        事業開発からプロモーションまで全般的にサポート、成功まで導きます。<br>
-        株式会社Neekeyが従来の広告・PRの会社と異なる、三つの新しいポイント。<br>
+      <p>株式会社Neekeyは代行業を一括で検索・比較・予約が出来るサイト「代行エンジン」を運営をしています。<br>
+        企業・自治体・個人のチャレンジを、
+        システム開発からマーケティング戦略まで全般的にサポートします。<br>
+        株式会社Neekeyの「代行エンジン」、「Web、アプリ開発」、「マーケティング戦略」の三つのポイント。<br>
       </p>
       <div class="flexbox">
-        <article class=" paragraph paragrph1">
-          <p>Neekey .Inc</p>
-          <p>CEO<br>Takaaki Takada</p>
-          <p>Address<br>Dainashiti 1302, 4-41-16 Tyuuou, Nakano-ku, 164-0011 Tokyo, Japan</p>
-          <p>Content<br>Internet media and application planning, development, management, SEO measures</p>
-          <p>Established<br>2019</p>
+        <article class=" paragraph paragraph1">
+          <h4>代行エンジン</h4>
+          <p>
+            もっと自分の時間を自由に生きよう。「やること」は何かよりも「やらないこと」は何かを考える。
+            そして、やらないことはプロに代わって行ってもらう。<br>
+            今、代行業界は急成長しています。
+            急成長した分、検索に苦労してしまうことも多々あります。<br>
+            そんな代行業界を一括で検索・比較・予約が出来るサイトが代行エンジンです。
+          </p>
         </article>
-        <article class=" paragraph paragrph2">
-          <p>株式会社ニーキー</p>
-          <p>代表者<br>高田 崇照 (たかだ たかあき)</p>
-          <p>住所<br>〒164-0011 東京都中野区中央4-41-16ダイナシティ1302</p>
-          <p>事業内容<br>インターネットメディア及びアプリケーションの企画・開発・運営、SEO対策</p>
-          <p>設立<br>2019年</p>
+        <article class=" paragraph paragraph2">
+          <h4>Web,アプリ開発</h4>
+          <p>
+            WEBシステムやスマートフォンアプリの要件定義、設計、開発、構築、導入、保守、運用などを一貫して請け負うことが可能です。<br>
+            WordpressなどのオープンソースのCMSを用いた簡易な開発も行います。<br>
+            PCサイトやスマートフォンサイト、アプリのレスポンシブデザイン化など技術を掛け合わせたデザイン、コーディングを行います。<br>
+          </p>
         </article>
-        <article class=" paragraph paragrph3">
-          <p>株式会社ニーキー</p>
-          <p>代表者<br>高田 崇照 (たかだ たかあき)</p>
-          <p>住所<br>〒164-0011 東京都中野区中央4-41-16ダイナシティ1302</p>
-          <p>事業内容<br>インターネットメディア及びアプリケーションの企画・開発・運営、SEO対策</p>
-          <p>設立<br>2019年</p>
+        <article class=" paragraph paragraph3">
+          <h4>マーケティング</h4>
+          <p>
+            Webやアプリの開発だけではなく、
+            開発後に皆様が満足出来るような「結果」が帰ってくるために、SNS運用、SEO対策までサポートすることが出来ます。<br>
+            世の中の変化、生活者の気持ちを捉えたアプローチをクライアントパートナーとともに生み出し、
+            圧倒的認知力を提供します。
+          </p>
         </article>
       </div>
     </div>
