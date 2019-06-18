@@ -9,7 +9,7 @@ body {
 
 /* header~~~~~~ */
 .navigation {
-  color: white;
+  color: black;
   font-size: 15px;
   text-decoration: none;
 }
@@ -20,10 +20,10 @@ body {
 
 nav {
   width:100%;
-  background-color: #333333;
+  background-color: rgb(194, 194, 194);
   /* position: fixed; */
   z-index: 100;
-  height: 110px;
+  height: 90px;
   border-bottom: 1px solid #dcdcdc;
 }
 ul {
@@ -36,8 +36,8 @@ li {
   padding: 0 3%;
 }
 .logo{
-  vertical-align: -60%;
-  padding-top:2%;
+  vertical-align: -120%;
+  padding-top:0.5%;
 }
 
 /* ~~~~~~header */
@@ -68,18 +68,20 @@ h1{
   width: 100%;
   text-align: center;
   padding: 200px 0;
-  padding-top: 200px;
   font-size: 40px;
-  margin-top: 0;
+  padding-bottom: 280px;
+  margin: 0;
   color: #333333;
 }
 .get{
-  width: 60%;
+  width: 40%;
   height: 600px;
   margin: 100px auto;
-  margin-left: 45%;
+  margin-left: 30%;
+  margin-top: 40px;
   border-radius: .25rem;
   position: relative;
+  background-color: rgb(194, 194, 194);
 }
 .getImage{
   width: 60%;

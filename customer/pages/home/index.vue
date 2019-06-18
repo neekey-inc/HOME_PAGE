@@ -5,6 +5,9 @@
       個人の時代に突入する今。<br>
       Neekeyは個人を照らす鍵になる。
     </h1>
+    <!-- <div class="getimage">
+      <img src="/logo.png" width="150px" height="50px" class="get">
+    </div> -->
     <!-- ~~~~~~決め台詞 -->
 
     <!-- サービス~~~~~~ -->
