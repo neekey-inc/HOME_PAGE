@@ -4,7 +4,7 @@
     <header>
       <nav>
         <ul>
-          <li><router-link to="#home"><img src="/logo.png" class="logo"></router-link></li>
+          <li><router-link to="#home"><img src="/logo.png" width="110px" height="80px" class="logo"></router-link></li>
           <li class="top"><router-link to="#service" class="navigation">SERVICE</router-link></li>
           <li><router-link to="#who" class="navigation">WHO WE ARE</router-link></li>
           <li><router-link to="#about" class="navigation">ABOUT</router-link></li>
