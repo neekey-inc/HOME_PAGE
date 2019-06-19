@@ -13,7 +13,7 @@
     <!-- サービス~~~~~~ -->
     <div class="servicebox" id="service">
       <div class="imagebox">
-        <img src="/engine.jpg" class="image">
+        <img src="/homehelper.jpg" class="image">
         <p>
           代行エンジン<br>
           代行業を一括で検索・比較・予約できるサイト<br>
@@ -21,16 +21,16 @@
         </p>
       </div>
       <div class="imagebox">
-        <img src="/homepage.png" class="image">
+        <img src="/homepage.jpg" class="image">
         <p>
-          ホームページ格安開発<br>
-          フリーランス・個人事業主、企業様のホームページを<br>
-          コミコミ10万円で作成しています。
+          ホームページ開発<br>
+          個人、企業、自治体のホームページを<br>
+          込み込み10万円で作成しています。
         </p>
       </div>
       <div class="flexbox">
         <div class="subleftimagebox">
-          <img src="/develop.jpg" class="image">
+          <img src="/development.jpg" class="image">
           <p>
             Web、アプリ開発<br>
             受託開発を出来る限りお客様の希望に合う形で開発いたします。<br>
@@ -42,7 +42,7 @@
           <p>
             SEO対策<br>
             せっかく作ったあなたのサイトが誰にも見られなくては意味ないですよね？<br>
-            検索結果上位を獲得するべく力を尽くします。
+            検索結果上位を獲得するために力を尽くします。
           </p>
         </div>
       </div>
