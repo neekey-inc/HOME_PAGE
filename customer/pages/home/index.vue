@@ -5,6 +5,14 @@
       個人の時代に突入する今。<br>
       Neekeyは個人を照らす鍵になる。
     </h1>
+    <!-- <h1>
+      今こそ扉を開けるとき。<br>
+      Neekeyと一緒に
+      あなただけの"Key"を見つけよう。<br>
+      さあ、新しい扉を開けよう。
+      Neekeyはその”Key”となる。<br>
+      いこう、その先へ。
+    </h1> -->
     <!-- <div class="getimage">
       <img src="/logo.png" width="150px" height="50px" class="get">
     </div> -->
@@ -12,6 +20,7 @@
 
     <!-- サービス~~~~~~ -->
     <div class="servicebox" id="service">
+      <h3 class="whoweare"><img src="/service.png" width="290px" height="50px"></h3>
       <div class="imagebox">
         <img src="/engine.jpg" class="image">
         <p>
@@ -51,7 +60,7 @@
 
     <!-- WHO WE ARE~~~~~~ -->
     <div class="whowearebox" id="who">
-      <h3 class="whoweare">WHO WE ARE</h3>
+      <h3 class="whoweare"><img src="/who.png" width="350px" height="50px"></h3>
       <p>株式会社Neekeyは代行業を一括で検索・比較・予約が出来るサイト「代行エンジン」を運営をしています。<br>
         企業・自治体・個人のチャレンジを、
         システム開発からマーケティング戦略まで全般的にサポートします。<br>
@@ -91,7 +100,7 @@
 
     <!-- アバウト~~~~~~ -->
     <div class="aboutbox" id="about">
-      <h3 class="about">ABOUT</h3>
+      <h3 class="about"><img src="/about.png" width="250px" height="50px"></h3>
       <div class="flexbox">
         <div class="japanese">
           <p>Neekey .Inc</p>
@@ -113,7 +122,7 @@
 
     <!-- メンバー~~~~~~ -->
     <div class="memberbox" id="member">
-      <h3 class="member">MEMBER</h3>
+      <h3 class="member"><img src="/member.png" width="290px" height="50px"></h3>
       <div class="flexbox">
         <div class="name">
           <h4>高田 崇照<br>Takaaki Takada</h4>
@@ -146,7 +155,7 @@
     <div class="contactbox" id="contact">
       <div class="flexbox">
         <div class="japanese">
-          <h3 class="contact">CONTACT</h3>
+          <h3 class="contact"><img src="/contact.png" width="290px" height="50px"></h3>
           <p>
             お仕事のご相談についての質問、お気軽にお問い合わせください<br>
             Having any question about our work? Feel free to ask us.<br>
