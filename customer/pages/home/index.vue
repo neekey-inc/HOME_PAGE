@@ -169,22 +169,22 @@
         <div class="contactform">
           <el-form class="input-form" :model="form" ref="form">
             <el-form-item>
-              <el-input type="text" v-model="form.subject" placeholder="　&#xf007; タイトル / Title"></el-input>
+              <el-input type="text" v-model="form.subject" prefix-icon="el-icon-edit-outline" placeholder=" タイトル / Title"></el-input>
             </el-form-item>
             <el-form-item>
-              <el-input type="text" v-model="form.name" placeholder=" &#xf007; 名前 / Name"></el-input>
+              <el-input type="text" v-model="form.name" prefix-icon="el-icon-user" placeholder=" 名前 / Name"></el-input>
             </el-form-item>
             <el-form-item>
-              <el-input type="email" v-model="form.email" placeholder="　&#xf0e0; メールアドレス / Email Address"></el-input>
+              <el-input type="email" v-model="form.email" prefix-icon="el-icon-message" placeholder=" メールアドレス / Email Address"></el-input>
             </el-form-item>
             <el-form-item>
-              <el-input type="text" v-model="form.phone" placeholder="　&#xf0e0; 電話 / Phone"></el-input>
+              <el-input type="text" v-model="form.phone" prefix-icon="el-icon-phone-outline" placeholder=" 電話番号 / Phone Number"></el-input>
             </el-form-item>
             <el-form-item>
-              <el-input type="textarea" v-model="form.detail" placeholder="　&#xf27a; 内容 / Content"></el-input>
+              <el-input type="text"  v-model="form.detail" prefix-icon="el-icon-chat-square" placeholder=" 内容 / Comment"></el-input>
             </el-form-item>
             <el-form-item>
-              <el-button @click="save" icon="el-icon-position">送信する</el-button>
+              <el-button type="info" class="button" @click="save" icon="el-icon-s-promotion">送信</el-button>
             </el-form-item>
           </el-form>
         </div>
