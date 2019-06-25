@@ -61,7 +61,7 @@
     <!-- WHO WE ARE~~~~~~ -->
     <div class="whowearebox" id="who">
       <h3 class="whoweare"><img src="/who.png" width="350px" height="50px"></h3>
-      <p>株式会社Neekeyは代行業を一括で検索・比較・予約が出来るサイト「代行エンジン」を運営をしています。<br>
+      <p>株式会社Neekeyは代行業を一括で検索・比較・予約が出来るサイト「代行エンジン」の運営をしています。<br>
         企業・自治体・個人のチャレンジを、
         システム開発からマーケティング戦略まで全般的にサポートします。<br>
         株式会社Neekeyの「代行エンジン」、「Web、アプリ開発」、「マーケティング戦略」の三つのポイント。<br>
@@ -137,12 +137,12 @@
       </div>
       <div class="flexbox">
         <div class="name">
-          <h4>りょうま<br><br>Ryouma Kamimure</h4>
+          <h4>神牟禮 崚磨<br>Ryouma Kamimure</h4>
           <p>得意分野 : 営業、行動、経営</p>
           <p>趣味 : お金と筋トレ</p>
         </div>
         <div class="description">
-          <h4>渡邉 和樹<br><br>Kazuki Watanabe</h4>
+          <h4>渡邉 和樹<br>Kazuki Watanabe</h4>
           <p>得意分野 : SEO対策、Webマーケティング、ブログ</p>
           <p>趣味 : ゲームとサッカー</p>
         </div>
