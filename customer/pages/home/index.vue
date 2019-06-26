@@ -60,37 +60,37 @@
     <!-- WHO WE ARE~~~~~~ -->
     <div class="whowearebox" id="who">
       <h3 class="whoweare"><img src="/who.png" width="350px" height="50px"></h3>
-      <p>株式会社Neekeyは代行業を一括で検索・比較・予約が出来るサイト「代行エンジン」の運営をしています。<br>
+      <p class="description">
+        株式会社Neekeyは代行業を一括で検索・比較・予約が出来るサイト「代行エンジン」の運営をしています。
         企業・自治体・個人のチャレンジを、システム開発からマーケティング戦略まで全般的にサポートします。<br>
-        株式会社Neekeyの「代行エンジン」、「Web、アプリ開発」、「マーケティング戦略」の三つのポイント。<br>
+        株式会社Neekeyの「代行エンジン」、「Web、アプリ開発」、「マーケティング戦略」の三つのポイント。
       </p>
-        <div class=" paragraph paragraph1">
-          <h4>代行エンジン</h4>
-          <p>
-            もっと自分の時間を自由に生きよう。「やること」は何かよりも「やらないこと」は何かを考える。
-            そして、やらないことはプロに代わって行ってもらう。
-            今、代行業界は急成長しています。
-            急成長した分、検索に苦労してしまうことも多々あります。
-            そんな代行業界を一括で検索・比較・予約が出来るサイトが代行エンジンです。
-          </p>
-        </div>
-        <div class=" paragraph paragraph2">
-          <h4>Web,アプリ開発</h4>
-          <p>
-            WEBシステムやスマートフォンアプリの要件定義、設計、開発、構築、導入、保守、運用などを一貫して請け負うことが可能です。
-            WordpressなどのオープンソースのCMSを用いた簡易な開発も行います。
-            PCサイトやスマートフォンサイト、アプリのレスポンシブデザイン化など技術を掛け合わせたデザイン、コーディングを行います。
-          </p>
-        </div>
-        <div class=" paragraph paragraph3">
-          <h4>マーケティング</h4>
-          <p>
-            Webやアプリの開発だけではなく、
-            開発後に皆様が満足出来るような「結果」が帰ってくるために、SNS運用、SEO対策までサポートすることが出来ます。
-            世の中の変化、生活者の気持ちを捉えたアプローチをクライアントパートナーとともに生み出し、
-            圧倒的認知力を提供します。
-          </p>
-        </div>
+      <div class=" paragraph paragraph1">
+        <h4>代行エンジン</h4>
+        <p>
+          もっと自分の時間を自由に生きよう。「やること」は何かよりも「やらないこと」は何かを考える。
+          そして、やらないことはプロに代わって行ってもらう。
+          今、代行業界は急成長しています。
+          急成長した分、検索に苦労してしまうことも多々あります。
+          そんな代行業界を一括で検索・比較・予約が出来るサイトが代行エンジンです。
+        </p>
+      </div>
+      <div class=" paragraph paragraph2">
+        <h4>Web,アプリ開発</h4>
+        <p>
+          WEBシステムやスマートフォンアプリの要件定義、設計、開発、構築、導入、保守、運用などを一貫して請け負うことが可能です。
+          WordpressなどのオープンソースのCMSを用いた簡易な開発も行います。
+          PCサイトやスマートフォンサイト、アプリのレスポンシブデザイン化など技術を掛け合わせたデザイン、コーディングを行います。
+        </p>
+      </div>
+      <div class=" paragraph paragraph3">
+        <h4>マーケティング</h4>
+        <p>
+          Webやアプリの開発だけではなく、
+          開発後に皆様が満足出来るような「結果」が帰ってくるために、SNS運用、SEO対策までサポートすることが出来ます。
+          世の中の変化、生活者の気持ちを捉えたアプローチをクライアントパートナーとともに生み出し、
+          圧倒的認知力を提供します。
+        </p>
       </div>
     </div>
     <!-- ~~~~~~WHO WE ARE -->
@@ -98,7 +98,7 @@
     <!-- アバウト~~~~~~ -->
     <div class="aboutbox" id="about">
       <h3 class="about"><img src="/about.png" width="250px" height="50px"></h3>
-      <div class="flexbox">
+      <div class="flexbox columnflexbox">
         <div class="japanese">
           <p>Neekey .Inc</p>
           <p>CEO<br>Takaaki Takada</p>
@@ -188,6 +188,44 @@
       </div>
     </div>
     <!-- ~~~~~~お問い合わせ -->
+    <!-- レスポンシブなお問い合わせ~~~~~~ -->
+    <div class="responsivecontactbox" id="contact">
+      <h3 class="contact"><img src="/contact.png" width="290px" height="50px"></h3>
+      <div class="responsivejapanese">
+        <p>
+          お仕事のご相談についての質問、お気軽にお問い合わせください<br>
+          Having any question about our work? Feel free to ask us.<br>
+        </p>
+        <p>
+          <br>電話でのお問い合わせ先<br>
+          You may also call by phone
+        </p>
+        <p>090-6566-8268<br>(年中無休 10:00~19:00)</p>
+      </div>
+      <div class="contactform">
+        <el-form class="input-form" :model="form" ref="form">
+          <el-form-item>
+            <el-input type="text" v-model="form.subject" prefix-icon="el-icon-edit-outline" placeholder=" タイトル / Title"></el-input>
+          </el-form-item>
+          <el-form-item>
+            <el-input type="text" v-model="form.name" prefix-icon="el-icon-user" placeholder=" 名前 / Name"></el-input>
+          </el-form-item>
+          <el-form-item>
+            <el-input type="email" v-model="form.email" prefix-icon="el-icon-message" placeholder=" メールアドレス / Email Address"></el-input>
+          </el-form-item>
+          <el-form-item>
+            <el-input type="text" v-model="form.phone" prefix-icon="el-icon-phone-outline" placeholder=" 電話番号 / Phone Number"></el-input>
+          </el-form-item>
+          <el-form-item>
+            <el-input type="text"  v-model="form.detail" prefix-icon="el-icon-chat-square" placeholder=" 内容 / Comment"></el-input>
+          </el-form-item>
+          <el-form-item>
+            <el-button type="info" class="button" @click="save" icon="el-icon-s-promotion">送信</el-button>
+          </el-form-item>
+        </el-form>
+      </div>
+    </div>
+    <!-- ~~~~~~レスポンシブなお問い合わせ -->
   </section>
 </template>
 
