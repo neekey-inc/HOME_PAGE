@@ -185,6 +185,19 @@ h4{
   font-size: 30px;
   font-family: "ヒラギノ明朝 ProN","Hiragino Mincho ProN";
 }
+.name h4{
+  margin-bottom: 0px;
+}
+
+.description h4{
+  margin-bottom: 0px;
+}
+
+.position{
+  font-weight: bold;
+  margin-top: 0;
+}
+
 /* ~~~~~~member */
 
 
@@ -346,16 +359,17 @@ input.textarea:focus {
 }
 .imagebox{
   width: 80%;
-  height: 600px;
+  height: 500px;
   margin: 100px auto;
-  border-radius: .25rem;
+  border-radius: 0.25rem;
   position: relative;
   background-color: #000000;
 }
 .imagebox p {
   position: absolute;
   top: 45%;
-  left: 20%;
+  left: 30%;
+  width: 48%;
   -ms-transform: translate(-50%,-50%);
   -webkit-transform: translate(-50%,-50%);
   transform: translate(-50%,-50%);
@@ -367,10 +381,10 @@ input.textarea:focus {
   }
 .subleftimagebox{
   width: 38.5%;
-  height: 600px;
+  height: 400px;
   margin-left: 10%;
   margin-bottom: 100px;
-  margin-top: 100px;
+  margin-top: 0px;
   position: relative;
   border-radius: .25rem;
   background-color: #000000;
@@ -386,14 +400,14 @@ input.textarea:focus {
   padding:0;
   color: white;
   /* font-weight: bold; */
-  font-size: 23px;
+  font-size: 20px;
   }
 .subrightimagebox{
   width: 38.5%;
-  height: 600px;
+  height: 400px;
   margin-left: 3%;
   margin-bottom: 100px;
-  margin-top: 100px;
+  margin-top: 0px;
   position: relative;
   border-radius: .25rem;
   background-color: #000000;
@@ -409,7 +423,7 @@ input.textarea:focus {
   padding:0;
   color: white;
   /* font-weight: bold; */
-  font-size: 23px;
+  font-size: 20px;
   }
 .image{
   width: 100%;
@@ -455,7 +469,7 @@ h3.whoweare{
   font-size: 18px;
 }
 .paragraph {
-  width: 12%;
+  width: 50%;
   margin-top: 60px;
   text-align: left;
 }
@@ -466,20 +480,177 @@ h3.whoweare{
 .paragraph h4{
   color: white;
   margin-bottom: 40px;
+  border-left: 3px white solid;
+  padding-left: 15px;
 }
 .paragraph1{
-  margin-left: 27%;
-  border-top: 3px white solid;
+  margin-left: 24%;
   margin-right: 5%;
 }
 .paragraph2{
-  border-top: 3px white solid;
+  margin-left: 24%;
   margin-right: 5%;
 }
 .paragraph3{
-  border-top: 3px white solid;
+  margin-left: 24%;
   margin-right: 5%;
 }
 
 /* ~~~~~~WHO WE ARE */
 
+
+/* レスポンシブデザイン */
+
+@media screen and (min-width: 801px) { /*ウィンドウ幅が767px以上の場合に適用*/
+  body {
+    background-color: #00FFFF; /*青色*/
+  }
+}
+
+@media screen and (max-width: 800px) { /*ウィンドウ幅が最大767pxまでの場合に適用*/
+  body {
+    background-color: #FF0000; /*赤色*/
+  }
+  .imagebox{
+    width: 80%;
+    height: 280px;
+    margin: 50px auto;
+    border-radius: .25rem;
+    position: relative;
+    background-color: #000000;
+  }
+  .imagebox p {
+    position: absolute;
+    top: 45%;
+    left: 30%;
+    width: 48%;
+    -ms-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    margin:0;
+    padding:0;
+    color: white;
+    /* font-weight: bold; */
+    font-size: 15px;
+    }
+    .subleftimagebox{
+      width: 38.5%;
+      height: 200px;
+      margin-left: 10%;
+      margin-bottom: 100px;
+      margin-top: 0px;
+      position: relative;
+      border-radius: .25rem;
+      background-color: #000000;
+    }
+    .subleftimagebox p {
+      position: absolute;
+      top: 45%;
+      left: 40%;
+      -ms-transform: translate(-50%,-50%);
+      -webkit-transform: translate(-50%,-50%);
+      transform: translate(-50%,-50%);
+      margin:0;
+      padding:0;
+      color: white;
+      /* font-weight: bold; */
+      font-size: 13px;
+      }
+    .subrightimagebox{
+      width: 38.5%;
+      height: 200px;
+      margin-left: 3%;
+      margin-bottom: 100px;
+      margin-top: 0px;
+      position: relative;
+      border-radius: .25rem;
+      background-color: #000000;
+    }
+    .subrightimagebox p {
+      position: absolute;
+      top: 45%;
+      left: 40%;
+      -ms-transform: translate(-50%,-50%);
+      -webkit-transform: translate(-50%,-50%);
+      transform: translate(-50%,-50%);
+      margin:0;
+      padding:0;
+      color: white;
+      /* font-weight: bold; */
+      font-size: 13px;
+      }
+}
+
+@media screen and (max-width: 480px) { /*ウィンドウ幅が最大479pxまでの場合に適用*/
+  body {
+    background-color: #00FF00; /*緑色*/
+  }
+  .imagebox{
+    width: 80%;
+    height: 200px;
+    margin: 50px auto;
+    border-radius: .25rem;
+    position: relative;
+    background-color: #000000;
+  }
+  .imagebox p {
+    position: absolute;
+    top: 45%;
+    left: 30%;
+    width: 48%;
+    -ms-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    margin:0;
+    padding:0;
+    color: white;
+    /* font-weight: bold; */
+    font-size: 13px;
+    }
+    .subleftimagebox{
+      width: 38.5%;
+      height: 150px;
+      margin-left: 10%;
+      margin-bottom: 100px;
+      margin-top: 0px;
+      position: relative;
+      border-radius: .25rem;
+      background-color: #000000;
+    }
+    .subleftimagebox p {
+      position: absolute;
+      top: 45%;
+      left: 40%;
+      -ms-transform: translate(-50%,-50%);
+      -webkit-transform: translate(-50%,-50%);
+      transform: translate(-50%,-50%);
+      margin:0;
+      padding:0;
+      color: white;
+      /* font-weight: bold; */
+      font-size: 10px;
+      }
+    .subrightimagebox{
+      width: 38.5%;
+      height: 150px;
+      margin-left: 3%;
+      margin-bottom: 100px;
+      margin-top: 0px;
+      position: relative;
+      border-radius: .25rem;
+      background-color: #000000;
+    }
+    .subrightimagebox p {
+      position: absolute;
+      top: 45%;
+      left: 40%;
+      -ms-transform: translate(-50%,-50%);
+      -webkit-transform: translate(-50%,-50%);
+      transform: translate(-50%,-50%);
+      margin:0;
+      padding:0;
+      color: white;
+      /* font-weight: bold; */
+      font-size: 10px;
+      }
+}
