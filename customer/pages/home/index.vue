@@ -1,10 +1,12 @@
 <template>
   <section id="home">
     <!-- 決め台詞~~~~~~ -->
-    <h1>
-      個人の時代に突入する今。<br>
-      Neekeyは個人を照らす鍵になる。
-    </h1>
+    <div class="oneshotbox">
+      <h1>
+        個人の時代に突入する今。<br>
+        Neekeyは個人を照らす鍵になる。
+      </h1>
+    </div>
     <!-- <h1>
       今こそ扉を開けるとき。<br>
       Neekeyと一緒に
@@ -189,7 +191,7 @@
     </div>
     <!-- ~~~~~~お問い合わせ -->
     <!-- レスポンシブなお問い合わせ~~~~~~ -->
-    <div class="responsivecontactbox" id="contact">
+    <div class="responsivecontactbox" id="responsivecontact">
       <h3 class="contact"><img src="/contact.png" width="290px" height="50px"></h3>
       <div class="responsivejapanese">
         <p>

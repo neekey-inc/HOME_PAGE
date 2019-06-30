@@ -65,16 +65,21 @@ address{
 
 
 /* 決め台詞~~~~~~ */
+.oneshotbox{
+  width: 100vw;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 h1{
   width: 100%;
   text-align: center;
-  padding: 400px 0;
   font-size: 40px;
-  padding-bottom: 500px;
   margin: 0;
   color: #333333;
 }
-.get{
+/* .get{
   width: 40%;
   height: 600px;
   margin: 100px auto;
@@ -101,7 +106,7 @@ h1{
   color: black;
   font-weight: bold;
   font-size: 40px;
-  }
+  } */
 /* ~~~~~~決め台詞 */
 
 
@@ -444,6 +449,9 @@ h3.whoweare{
   .responsivecontactbox{
     display: none;
   }
+  .header{
+    display: none;
+  }
 }
 
 @media screen and (max-width: 800px) { /*ウィンドウ幅が最大767pxまでの場合に適用*/
@@ -544,11 +552,12 @@ h3.whoweare{
     margin-left: 24%;
   }
   .contactform {
-    text-align: left;
     padding-top: 60px;
-    padding-left: 24%;
+    text-align: center;
+    padding: 1%;
     color: black;
-    width: 100%;
+    width: 50%;
+    margin-left: 24%;
   }
 
   h3.contact{
@@ -564,7 +573,7 @@ h3.whoweare{
   }
 
   .input-form {
-    width:60%;
+    width:100%;
   }
   input[type="email"],
   input[type="text"]{
@@ -599,6 +608,36 @@ h3.whoweare{
     width: 100%;
     background-color: black;
     color: white;
+  }
+
+
+  .responsiveheader{
+    display: none;
+  }
+
+  .logo{
+    height: 50px;
+    width: 70px;
+    vertical-align: -70%;
+    padding-top:0.5%;
+    padding-right: 5%;
+  }
+  .navigation{
+    font-size: 22px;
+  }
+  ul{
+    width: 100%;
+    padding-left: 0;
+    padding-top: 20px;
+    text-align: center;
+  }
+  li {
+    display: inline;
+    padding: 0 4%;
+  }
+  .oneshotbox{
+    width: 100vw;
+    height: 80vh;
   }
 }
 
@@ -731,5 +770,16 @@ h3.whoweare{
   h4{
     font-size: 20px;
     font-family: "ヒラギノ明朝 ProN","Hiragino Mincho ProN";
+  }
+  .logo{
+    height: 50px;
+    width: 70px;
+    vertical-align: -70%;
+    padding-top:0.5%;
+    padding-right: 7%;
+  }
+  li {
+    display: inline;
+    padding: 0 3%;
   }
 }
