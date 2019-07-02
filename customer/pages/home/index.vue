@@ -2,10 +2,18 @@
   <section id="home">
     <!-- 決め台詞~~~~~~ -->
     <div class="oneshotbox">
-      <h1>
+      <!-- <h1>
         個人の時代に突入する今。<br>
         Neekeyは個人を照らす鍵になる。
+      </h1> -->
+      <h1>
+        今ここにない未来は
+        自分で創る。<br>
       </h1>
+      <!-- <img src="/logo.png" width="400px" height="300px" class="get"> -->
+      <!-- <div class="getimage">
+        <img src="/logo.png" width="150px" height="50px" class="get">
+      </div> -->
     </div>
     <!-- <h1>
       今こそ扉を開けるとき。<br>
@@ -15,9 +23,6 @@
       Neekeyはその”Key”となる。<br>
       いこう、その先へ。
     </h1> -->
-    <!-- <div class="getimage">
-      <img src="/logo.png" width="150px" height="50px" class="get">
-    </div> -->
     <!-- ~~~~~~決め台詞 -->
 
     <!-- サービス~~~~~~ -->

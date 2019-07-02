@@ -19,6 +19,7 @@ body {
 
 nav {
   width:100%;
+  /* background-color: rgb(82, 82, 82); */
   background-color: rgb(194, 194, 194);
   /* position: fixed; */
   z-index: 100;
@@ -47,6 +48,7 @@ li {
 
 /* footer~~~~~~ */
 address{
+  /* background-color: rgb(82, 82, 82); */
   background-color: rgb(194, 194, 194);
   border-top: solid 2px rgb(255, 238, 1);
   color: black;
@@ -66,11 +68,16 @@ address{
 
 /* 決め台詞~~~~~~ */
 .oneshotbox{
+  /* background-image: url("/concleatwaal.jpg"); */
+  /* background-repeat: no-repeat; */
+  background-size: cover;
+  background-position: center center;
   width: 100vw;
-  height: 80vh;
+  height: 85vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 h1{
   width: 100%;
@@ -78,6 +85,9 @@ h1{
   font-size: 40px;
   margin: 0;
   color: #333333;
+}
+.oneshotbox h1{
+
 }
 /* .get{
   width: 40%;
@@ -396,6 +406,7 @@ h3.whoweare{
   font-size:60px;
   font-weight:300;
   margin-bottom: 60px;
+  margin-top: 0;
   font-family:FB PoynterSerif RE Regular,A1 Mincho,ヒラギノ明朝 ProN W3,HiraMinProN-W3,ＭＳ\ Ｐ明朝,serif;
 }
 .whowearebox .description{
@@ -616,12 +627,13 @@ h3.whoweare{
   }
 
   .logo{
-    height: 50px;
-    width: 70px;
-    vertical-align: -70%;
-    padding-top:0.5%;
+    height: 35px;
+    width: 80px;
+    vertical-align: -35%;
+    padding-top:0.3%;
     padding-right: 5%;
   }
+
   .navigation{
     font-size: 22px;
   }
@@ -772,14 +784,14 @@ h3.whoweare{
     font-family: "ヒラギノ明朝 ProN","Hiragino Mincho ProN";
   }
   .logo{
-    height: 50px;
-    width: 70px;
-    vertical-align: -70%;
-    padding-top:0.5%;
-    padding-right: 7%;
+    height: 35px;
+    width: 80px;
+    vertical-align: -35%;
+    padding-top:0.3%;
+    padding-right: 5%;
   }
   li {
     display: inline;
-    padding: 0 3%;
+    padding: 0 2%;
   }
 }

@@ -5,12 +5,12 @@ module.exports = {
   mode: 'universal',
 
   head: {
-    title: 'Neekey.inc【ホームページ】',
+    title: '株式会社Neekey',
     meta: [
       { charset: 'utf-8' },
       { name: 'keywords', content: 'Neekey' },
-      { name: 'description', content: 'Neekey.inc【ホームページ】' },
-      { name: 'copyright', content: '©Neekey.inc 2019 allright reserved. 無断転載禁止' },
+      { name: 'description', content: '株式会社Neekeyは「今ここにない未来を自分で作る」をビジョンに掲げ、代行業を一括で比較できるサイト「代行エンジン」の運営やAIの研究、Web・アプリの受託開発を展開しています。インターネット産業の変化に合わせ新規事業を生み出しながら事業拡大をしていきます。' },
+      { name: 'copyright', content: '©Neekey.inc 2019 allright reserved.' },
       { name: 'mobile-web-app-capable', content: 'yes' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
     ],

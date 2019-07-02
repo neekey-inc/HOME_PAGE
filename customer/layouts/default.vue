@@ -19,7 +19,7 @@
     <header class="header">
       <nav>
         <ul>
-          <li><router-link to="#home"><img src="/logo.png" class="logo"></router-link></li>
+          <li><router-link to="#home"><img src="/company.png" class="logo"></router-link></li>
           <li class="top"><router-link to="#service" class="navigation"><i class="fas fa-laptop"></i></router-link></li>
           <li><router-link to="#who" class="navigation"><i class="fas fa-users"></i></router-link></li>
           <li><router-link to="#about" class="navigation"><i class="fas fa-building"></i></router-link></li>
