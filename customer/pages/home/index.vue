@@ -1,10 +1,20 @@
 <template>
   <section id="home">
     <!-- 決め台詞~~~~~~ -->
-    <h1>
-      個人の時代に突入する今。<br>
-      Neekeyは個人を照らす鍵になる。
-    </h1>
+    <div class="oneshotbox">
+      <!-- <h1>
+        個人の時代に突入する今。<br>
+        Neekeyは個人を照らす鍵になる。
+      </h1> -->
+      <h1>
+        今ここにない未来は
+        自分で創る。<br>
+      </h1>
+      <!-- <img src="/logo.png" width="400px" height="300px" class="get"> -->
+      <!-- <div class="getimage">
+        <img src="/logo.png" width="150px" height="50px" class="get">
+      </div> -->
+    </div>
     <!-- <h1>
       今こそ扉を開けるとき。<br>
       Neekeyと一緒に
@@ -13,9 +23,6 @@
       Neekeyはその”Key”となる。<br>
       いこう、その先へ。
     </h1> -->
-    <!-- <div class="getimage">
-      <img src="/logo.png" width="150px" height="50px" class="get">
-    </div> -->
     <!-- ~~~~~~決め台詞 -->
 
     <!-- サービス~~~~~~ -->
@@ -33,8 +40,8 @@
         <img src="/homepage.jpg" class="image">
         <p>
           ホームページ開発<br>
-          個人、企業、自治体のホームページを<br>
-          込み込み10万円で作成しています。
+          個人、企業、自治体のホームページを制作いたします。<br>
+          <!-- 月額プラン、年間保証一括払いプランなど、多様なプランを用意しております。 -->
         </p>
       </div>
       <div class="flexbox">
@@ -43,15 +50,14 @@
           <p>
             Web、アプリ開発<br>
             受託開発を出来る限りお客様の希望に合う形で開発いたします。<br>
-            ※規模により金額が異なるため、お問い合わせください。
           </p>
         </div>
         <div class="subrightimagebox">
           <img src="/seo.jpg" class="image">
           <p>
             SEO対策<br>
-            せっかく作ったあなたのサイトが誰にも見られなくては意味ないですよね？<br>
-            検索結果上位を獲得するために力を尽くします。
+            コンテンツ、リンクなど<br>
+            幅広い知識、技術で検索結果上位を実現します。
           </p>
         </div>
       </div>
@@ -61,39 +67,37 @@
     <!-- WHO WE ARE~~~~~~ -->
     <div class="whowearebox" id="who">
       <h3 class="whoweare"><img src="/who.png" width="350px" height="50px"></h3>
-      <p>株式会社Neekeyは代行業を一括で検索・比較・予約が出来るサイト「代行エンジン」の運営をしています。<br>
-        企業・自治体・個人のチャレンジを、
-        システム開発からマーケティング戦略まで全般的にサポートします。<br>
-        株式会社Neekeyの「代行エンジン」、「Web、アプリ開発」、「マーケティング戦略」の三つのポイント。<br>
+      <p class="description">
+        株式会社Neekeyは代行業を一括で検索・比較・予約が出来るサイト「代行エンジン」の運営をしています。
+        企業・自治体・個人のチャレンジを、システム開発からマーケティング戦略まで全般的にサポートします。<br>
+        株式会社Neekeyの「代行エンジン」、「Web、アプリ開発」、「マーケティング戦略」の三つのポイント。
       </p>
-      <div class="flexbox">
-        <div class=" paragraph paragraph1">
-          <h4>代行エンジン</h4>
-          <p>
-            もっと自分の時間を自由に生きよう。「やること」は何かよりも「やらないこと」は何かを考える。
-            そして、やらないことはプロに代わって行ってもらう。<br>
-            今、代行業界は急成長しています。
-            急成長した分、検索に苦労してしまうことも多々あります。<br>
-            そんな代行業界を一括で検索・比較・予約が出来るサイトが代行エンジンです。
-          </p>
-        </div>
-        <div class=" paragraph paragraph2">
-          <h4>Web,アプリ開発</h4>
-          <p>
-            WEBシステムやスマートフォンアプリの要件定義、設計、開発、構築、導入、保守、運用などを一貫して請け負うことが可能です。<br>
-            WordpressなどのオープンソースのCMSを用いた簡易な開発も行います。<br>
-            PCサイトやスマートフォンサイト、アプリのレスポンシブデザイン化など技術を掛け合わせたデザイン、コーディングを行います。<br>
-          </p>
-        </div>
-        <div class=" paragraph paragraph3">
-          <h4>マーケティング</h4>
-          <p>
-            Webやアプリの開発だけではなく、
-            開発後に皆様が満足出来るような「結果」が帰ってくるために、SNS運用、SEO対策までサポートすることが出来ます。<br>
-            世の中の変化、生活者の気持ちを捉えたアプローチをクライアントパートナーとともに生み出し、
-            圧倒的認知力を提供します。
-          </p>
-        </div>
+      <div class=" paragraph paragraph1">
+        <h4>代行エンジン</h4>
+        <p>
+          もっと自分の時間を自由に生きよう。「やること」は何かよりも「やらないこと」は何かを考える。
+          そして、やらないことはプロに代わって行ってもらう。
+          今、代行業界は急成長しています。
+          急成長した分、検索に苦労してしまうことも多々あります。
+          そんな代行業界を一括で検索・比較・予約が出来るサイトが代行エンジンです。
+        </p>
+      </div>
+      <div class=" paragraph paragraph2">
+        <h4>Web,アプリ開発</h4>
+        <p>
+          WEBシステムやスマートフォンアプリの要件定義、設計、開発、構築、導入、保守、運用などを一貫して請け負うことが可能です。
+          WordpressなどのオープンソースのCMSを用いた簡易な開発も行います。
+          PCサイトやスマートフォンサイト、アプリのレスポンシブデザイン化など技術を掛け合わせたデザイン、コーディングを行います。
+        </p>
+      </div>
+      <div class=" paragraph paragraph3">
+        <h4>マーケティング</h4>
+        <p>
+          Webやアプリの開発だけではなく、
+          開発後に皆様が満足出来るような「結果」が帰ってくるために、SNS運用、SEO対策までサポートすることが出来ます。
+          世の中の変化、生活者の気持ちを捉えたアプローチをクライアントパートナーとともに生み出し、
+          圧倒的認知力を提供します。
+        </p>
       </div>
     </div>
     <!-- ~~~~~~WHO WE ARE -->
@@ -101,7 +105,7 @@
     <!-- アバウト~~~~~~ -->
     <div class="aboutbox" id="about">
       <h3 class="about"><img src="/about.png" width="250px" height="50px"></h3>
-      <div class="flexbox">
+      <div class="flexbox columnflexbox">
         <div class="japanese">
           <p>Neekey .Inc</p>
           <p>CEO<br>Takaaki Takada</p>
@@ -125,26 +129,26 @@
       <h3 class="member"><img src="/member.png" width="290px" height="50px"></h3>
       <div class="flexbox">
         <div class="name">
-          <h4>高田 崇照<br>Takaaki Takada</h4>
-          <p>得意分野 : 開発、デザイン、経営</p>
-          <p>趣味 : お酒とテニス</p>
+          <h4>高田 崇照</h4>
+          <p class="position">Creative Director</p>
+          <p>趣味 : お酒・仕事</p>
         </div>
         <div class="description">
-          <h4>浅川 実輝<br>Mitsuki Asakawa</h4>
-          <p>得意分野 : 開発、財務、人事</p>
-          <p>趣味 : 音楽とバスケ</p>
+          <h4>浅川 実輝</h4>
+          <p class="position">Development Manager</p>
+          <p>趣味 : 音楽鑑賞・バスケ</p>
         </div>
       </div>
       <div class="flexbox">
         <div class="name">
-          <h4>神牟禮 崚磨<br>Ryouma Kamimure</h4>
-          <p>得意分野 : 営業、行動、経営</p>
-          <p>趣味 : お金と筋トレ</p>
+          <h4>神牟禮 崚磨</h4>
+          <p class="position">Sales Manager</p>
+          <p>趣味 : 海外旅行・筋トレ</p>
         </div>
         <div class="description">
-          <h4>渡邉 和樹<br>Kazuki Watanabe</h4>
-          <p>得意分野 : SEO対策、Webマーケティング、ブログ</p>
-          <p>趣味 : ゲームとサッカー</p>
+          <h4>渡邉 和樹</h4>
+          <p class="position">Digital Marketing Manager</p>
+          <p>趣味 : 分析・サッカー</p>
         </div>
       </div>
     </div>
@@ -191,6 +195,44 @@
       </div>
     </div>
     <!-- ~~~~~~お問い合わせ -->
+    <!-- レスポンシブなお問い合わせ~~~~~~ -->
+    <div class="responsivecontactbox" id="responsivecontact">
+      <h3 class="contact"><img src="/contact.png" width="290px" height="50px"></h3>
+      <div class="responsivejapanese">
+        <p>
+          お仕事のご相談についての質問、お気軽にお問い合わせください<br>
+          Having any question about our work? Feel free to ask us.<br>
+        </p>
+        <p>
+          <br>電話でのお問い合わせ先<br>
+          You may also call by phone
+        </p>
+        <p>090-6566-8268<br>(年中無休 10:00~19:00)</p>
+      </div>
+      <div class="contactform">
+        <el-form class="input-form" :model="form" ref="form">
+          <el-form-item>
+            <el-input type="text" v-model="form.subject" prefix-icon="el-icon-edit-outline" placeholder=" タイトル / Title"></el-input>
+          </el-form-item>
+          <el-form-item>
+            <el-input type="text" v-model="form.name" prefix-icon="el-icon-user" placeholder=" 名前 / Name"></el-input>
+          </el-form-item>
+          <el-form-item>
+            <el-input type="email" v-model="form.email" prefix-icon="el-icon-message" placeholder=" メールアドレス / Email Address"></el-input>
+          </el-form-item>
+          <el-form-item>
+            <el-input type="text" v-model="form.phone" prefix-icon="el-icon-phone-outline" placeholder=" 電話番号 / Phone Number"></el-input>
+          </el-form-item>
+          <el-form-item>
+            <el-input type="text"  v-model="form.detail" prefix-icon="el-icon-chat-square" placeholder=" 内容 / Comment"></el-input>
+          </el-form-item>
+          <el-form-item>
+            <el-button type="info" class="button" @click="save" icon="el-icon-s-promotion">送信</el-button>
+          </el-form-item>
+        </el-form>
+      </div>
+    </div>
+    <!-- ~~~~~~レスポンシブなお問い合わせ -->
   </section>
 </template>
 
