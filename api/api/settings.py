@@ -99,7 +99,15 @@ USE_TZ = True
 
 
 # Static files (CSS, JavaScript, Images)
-STATIC_URL = '/static/'
+
+DEBUG = False # True => Falseにする
+
+ALLOWED_HOSTS = ["ec2-3-112-249-151.ap-northeast-1.compute.amazonaws.com"] # Hostを追記
+#(省略)
+STATIC_URL = '/static/' # 基本これで決め打ち
+STATIC_ROOT = '../../customer/static'
+
+
 
 # add the following just below STATIC_URL
 MEDIA_URL = '/media/' # add this
