@@ -105,7 +105,7 @@ DEBUG = False # True => Falseにする
 ALLOWED_HOSTS = ["ec2-3-112-249-151.ap-northeast-1.compute.amazonaws.com"] # Hostを追記
 #(省略)
 STATIC_URL = '/static/' # 基本これで決め打ち
-STATIC_ROOT = '../../customer/static'
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
 
 
