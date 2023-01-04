@@ -19,7 +19,7 @@
     "cross-env": "^5.2.0",
     "element-ui": "^2.4.11",
     "express": "^4.16.4",
-    "nuxt": "^2.0.0",
+    "nuxt": "^2.15.8",
     "nuxt-fontawesome": "^0.4.0",
     "vue-router": "^3.0.6",
     "vue-scrollto": "^2.15.0",
@@ -33,7 +33,7 @@
     "jest": "^24.1.0",
     "nodemon": "^1.18.9",
     "vue": "^2.6.10",
-    "vue-jest": "^3.0.3",
+    "vue-jest": "^4.0.1",
     "vue-loader": "^15.7.0",
     "vue-template-compiler": "^2.6.10"
   }
